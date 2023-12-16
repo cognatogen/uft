@@ -3,7 +3,7 @@
   "id": "osedmgtest1",
   "title": "Old-School Essentials Development Build",
   "description": "Play B/X OSR modules with Old-School Essentials on Foundry VTT",
-  "version": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
+  "version": "1.0",
   "minimumCoreVersion": "10",
   "compatibleCoreVersion": "11",
   "compatibility": {
@@ -79,9 +79,9 @@
   ],
   "gridDistance": 5,
   "gridUnits": "ft",
-  "url": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
-  "manifest": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
-  "download": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
+    "url": "https://github.com/cognatogen/uft",
+    "manifest": "https://github.com/cognatogen/uft/releases/tag/test/system.json",
+    "download": "https://github.com/cognatogen/uft/releases/tag/test/test.zip",
   "bugs": "https://github.com/vttred/ose/issues",
   "flags": {
     "allowBugReporter": true
