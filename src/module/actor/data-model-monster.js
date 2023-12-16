@@ -30,6 +30,7 @@ export default class OseDataModelMonster extends foundry.abstract.DataModel {
       movement: new ObjectField(),
       config: new ObjectField(),
       initiative: new ObjectField(),
+	  damageBonus: new ObjectField(),
       hp: new ObjectField({
         hd: new StringField(),
         value: new NumberField({ integer: true }),
@@ -154,5 +155,11 @@ export default class OseDataModelMonster extends foundry.abstract.DataModel {
     const group = game.settings.get(game.system.id, "initiative") !== "group";
 
     return group ? this.initiative.mod : 0;
+  }
+  
+  get dmg() {
+	const group = game.settings.get(game.system.id, "damageBonus") !== "group";
+	
+	return group ? this.damageBonus.value : 0;
   }
 }

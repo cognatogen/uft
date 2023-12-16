@@ -57,6 +57,7 @@ export default class OseActorSheetCharacter extends OseActorSheet {
     data.system.meleeMod = this.actor.system.meleeMod;
     data.system.rangedMod = this.actor.system.rangedMod;
     data.system.init = this.actor.system.init;
+	data.system.damageBonus = this.actor.system.damageBonus;
 
     // Sort by sort order (see ActorSheet)
     [
