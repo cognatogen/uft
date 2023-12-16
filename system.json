@@ -1,6 +1,6 @@
 {
-  "name": "ose-dmgtest1",
-  "id": "ose-dmgtest1",
+  "name": "osedmgtest1",
+  "id": "osedmgtest1",
   "title": "Old-School Essentials Development Build",
   "description": "Play B/X OSR modules with Old-School Essentials on Foundry VTT",
   "version": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
